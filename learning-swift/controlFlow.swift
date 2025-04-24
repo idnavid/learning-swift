@@ -29,9 +29,9 @@ func forLoopRange(till num: Int = 5) {
 /// print integers in range with hops -- uses stride
 ///
 /// - Parameters:
-///     - start: first index
+///     - from: first index
 ///     - to: end index
-///     - step: hop size (aka by)
+///     - by: hop size (aka by)
 ///
 func forLoopStrideTo(start from: Int = 1, to: Int = 5, step by: Int = 2) {
     for indx in stride(from: 1, to: 5, by: 2) {
@@ -42,9 +42,9 @@ func forLoopStrideTo(start from: Int = 1, to: Int = 5, step by: Int = 2) {
 /// print integers in closed range with hops -- uses stride
 ///
 /// - Parameters:
-///     - start: first index
+///     - from: first index
 ///     - through: end index
-///     - step: hop size (aka by)
+///     - by: hop size (aka by)
 ///
 func forLoopStrideThrough(start from: Int = 1, through: Int = 5, step by: Int = 2) {
     for indx in stride(from: 1, through: 5, by: 2) {
