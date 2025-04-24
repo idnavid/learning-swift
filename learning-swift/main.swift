@@ -20,4 +20,11 @@ forLoopStrideTo(to: 3)
 print("Loop through a closed range of numbers with custom size and stride")
 forLoopStrideThrough(through: 3)
 
+print("Iterate over a dictionary")
 iterDictionary()
+
+print("Iterate over a custom collection")
+let liftOff = customIterator(count: 10)
+for i in liftOff {
+    print(i)
+}

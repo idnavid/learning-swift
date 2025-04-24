@@ -60,5 +60,19 @@ func iterDictionary() {
     }
 }
 
-
-
+/// Uses the Sequence protocol to build an iterator.
+struct customIterator: Sequence, IteratorProtocol {
+    /// Iterator size
+    ///  - count
+    var count: Int
+    
+    /// next function for iterator
+    mutating func next() -> Int? {
+        if count == 0 {
+            return nil
+        } else {
+            defer { count -= 1 }
+            return count
+        }
+    }
+}
