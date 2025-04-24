@@ -28,3 +28,9 @@ let liftOff = customIterator(count: 10)
 for i in liftOff {
     print(i)
 }
+
+print("Example using defer")
+temporaryBonus()
+
+print("Example using two defers")
+multipleDefer()
