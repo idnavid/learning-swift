@@ -26,21 +26,39 @@ func forLoopRange(till num: Int = 5) {
     }
 }
 
+/// print integers in range with hops -- uses stride
+///
+/// - Parameters:
+///     - start: first index
+///     - to: end index
+///     - step: hop size (aka by)
+///
 func forLoopStrideTo(start from: Int = 1, to: Int = 5, step by: Int = 2) {
     for indx in stride(from: 1, to: 5, by: 2) {
         print("Index is \(indx)")
     }
 }
 
+/// print integers in closed range with hops -- uses stride
+///
+/// - Parameters:
+///     - start: first index
+///     - through: end index
+///     - step: hop size (aka by)
+///
 func forLoopStrideThrough(start from: Int = 1, through: Int = 5, step by: Int = 2) {
     for indx in stride(from: 1, through: 5, by: 2) {
         print("Index is \(indx)")
     }
 }
 
+/// print key-value pairs in a dictionary
 func iterDictionary() {
     let numberOfPets = ["Alice": 2, "Bob": 1, "Charlie": 3]
     for (name, petCount) in numberOfPets {
         print("\(name) has \(petCount) pets.")
     }
 }
+
+
+
