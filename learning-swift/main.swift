@@ -62,3 +62,16 @@ print(childClass2.toy)
 childClass2.toy = "teddy" // changing toy invokes willSet and oldSet
 print(childClass2.toy)
 
+print("Polymorphism example")
+var child1 = ChildClass(clothes: "socks", toy: "bike")
+var adult1 = PersonClass(clothes: "coat")
+
+var collection = [child1, adult1]
+print("The array can be created easily, because the types of the class (i.e., ChildClass) and it's parent (i.e., PersonClass) are compatible")
+print(collection)
+print("even though they are different types")
+for item in collection {
+    print(type(of: item))
+}
+print("and the type of the array is the type of the parent class (i.e., PersonClass):")
+print(type(of: collection))
