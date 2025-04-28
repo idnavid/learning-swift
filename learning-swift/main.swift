@@ -55,3 +55,10 @@ print(personClass.clothes)
 print(personClass.describeClothes())
 let childClass = ChildClass(clothes: "socks", toy: "bike")
 print(childClass.describeClothes())
+
+print("Show properties of a class")
+var childClass2 = ChildClass(clothes: "socks", toy: "bike")
+print(childClass2.toy)
+childClass2.toy = "teddy" // changing toy invokes willSet and oldSet
+print(childClass2.toy)
+
