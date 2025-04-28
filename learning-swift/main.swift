@@ -34,3 +34,24 @@ temporaryBonus()
 
 print("Example using two defers")
 multipleDefer()
+
+print("Example using struct")
+let person = Person(clothes: "suit")
+let anotherPerson = Person(clothes: "shirt")
+var personCopy = person
+
+print(person.clothes)
+print(anotherPerson.clothes)
+print(personCopy)
+personCopy.clothes = "tie"
+print(personCopy)
+print(person)
+print(person.describeClothes())
+
+
+print("Example using class")
+var personClass = PersonClass(clothes: "socks")
+print(personClass.clothes)
+print(personClass.describeClothes())
+let childClass = ChildClass(clothes: "socks", toy: "bike")
+print(childClass.describeClothes())
