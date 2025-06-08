@@ -4,7 +4,7 @@ Spend 30 minutes a day learning and practicing Swift.
 
 ## 📦 Phase 1: Swift Foundations (Days 1–20)
 
-- [ ] Day 1: Variables & Constants
+- [x] Day 1: Variables & Constants
 - [ ] Day 2: Data Types
 - [ ] Day 3: Optionals
 - [ ] Day 4: Operators & String Interpolation
