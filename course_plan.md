@@ -14,7 +14,7 @@ Spend 30 minutes a day learning and practicing Swift.
 - [x] Day 8: `guard` statements
 - [x] Day 9: Control Flow Review
 - [x] Day 10: `for`, `while` loops
-- [ ] Day 11: Loop Practice
+- [x] Day 11: Loop Practice
 - [ ] Day 12: Break, Continue
 - [ ] Day 13: Function Basics
 - [ ] Day 14: Parameters and Return Values
