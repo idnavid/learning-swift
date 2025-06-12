@@ -9,11 +9,11 @@ Spend 30 minutes a day learning and practicing Swift.
 - [x] Day 3: Optionals
 - [ ] Day 4: Operators & String Interpolation
 - [ ] Day 5: Type Inference
-- [ ] Day 6: Nil-Coalescing & Optional Binding
-- [ ] Day 7: `if` and `switch`
-- [ ] Day 8: `guard` statements
-- [ ] Day 9: Control Flow Review
-- [ ] Day 10: `for`, `while` loops
+- [x] Day 6: Nil-Coalescing & Optional Binding
+- [x] Day 7: `if` and `switch`
+- [x] Day 8: `guard` statements
+- [x] Day 9: Control Flow Review
+- [x] Day 10: `for`, `while` loops
 - [ ] Day 11: Loop Practice
 - [ ] Day 12: Break, Continue
 - [ ] Day 13: Function Basics
