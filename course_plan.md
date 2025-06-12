@@ -7,8 +7,8 @@ Spend 30 minutes a day learning and practicing Swift.
 - [x] Day 1: Variables & Constants
 - [x] Day 2: Data Types
 - [x] Day 3: Optionals
-- [ ] Day 4: Operators & String Interpolation
-- [ ] Day 5: Type Inference
+- [x] Day 4: Operators & String Interpolation
+- [x] Day 5: Type Inference
 - [x] Day 6: Nil-Coalescing & Optional Binding
 - [x] Day 7: `if` and `switch`
 - [x] Day 8: `guard` statements
