@@ -75,3 +75,5 @@ for item in collection {
 }
 print("and the type of the array is the type of the parent class (i.e., PersonClass):")
 print(type(of: collection))
+
+
